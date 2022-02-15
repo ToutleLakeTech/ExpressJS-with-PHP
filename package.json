@@ -1,14 +1,25 @@
 {
-  "name": "ejswithphp",
+  "name": "expressjs-with-php",
+  "version": "1.0.0",
   "description": "",
-  "version": "0.0.1",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ToutleLakeTech/ExpressJS-with-PHP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ToutleLakeTech/ExpressJS-with-PHP/issues"
+  },
+  "homepage": "https://github.com/ToutleLakeTech/ExpressJS-with-PHP#readme",
   "dependencies": {
-      "php-express": "0.0.3",
-      "express": "4.17.2"
+    "express": "^4.17.2",
+    "php-express": "^0.0.3"
   }
 }
